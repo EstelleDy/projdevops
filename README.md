@@ -45,3 +45,15 @@ node_js:
  *
 Without the stars (*).
 Then click on Trigger custom build. We did a screenshot of our results from our PCs that is in the repository (DevOps_screen.png).
+
+
+---- DOCKER -----
+ 
+ We used a docker container to run our react app. 
+
+ We created a Dockerfile then run the following commands : 
+
+ - docker build -t projdevops .
+ - docker run -it -p 3000:3000 projdevops
+
+ It runned successfully our react app, we did a screenshot which you can find in the docker_verification.png 
